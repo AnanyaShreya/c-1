@@ -9,6 +9,7 @@ ABCD Pattern
 int main()
 {
     int n;
+    printf("Enter the desired number of letters to which you want to print the pattern\n");
     scanf("%d",&n);
     for(int i=0;i<n;i++)
     {
